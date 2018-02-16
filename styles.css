@@ -1,0 +1,173 @@
+body {
+  background-color: #f6f6f6;
+  height: 2000px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+header {
+  background-color: white;
+  height: 72px;
+  width: 100%;
+}
+
+header img {
+  width: 50px;
+  padding: 10px 20px 20px 40px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+nav {
+  float: right;
+  padding: 9px;
+
+}
+
+.content-menu {
+  height: 452px;
+  width: 100%;
+  background-color: white;
+border-top: 2px solid #e1e1e1;
+
+      box-shadow: 0px 19px 56px 0px rgba(0, 0, 0, 0.09);
+}
+
+.now {
+  position: absolute;
+  top: 78px;
+}
+
+.ready {
+  position: absolute;
+  top: 198px;
+}
+
+ul i {
+  vertical-align: top;
+  padding-left: 5px;
+}
+
+.featured-menu {
+  float: right;
+  background-color: #fafafa;
+  width: 19%;
+  height: 452px;
+}
+
+.events-featured-menu {
+  float: right;
+  background-color: #f6f6f6;
+  width: 19%;
+  height: 452px;
+}
+
+.main-menu {
+  display: grid;
+  grid-template-rows: 66% 33%;
+
+  grid-gap: 10px;
+
+}
+
+
+.main-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 35px 90px 90px 160px;
+
+}
+
+.main-grid div {
+
+
+  height: 92px;
+
+
+}
+
+.bullet {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.main-item i {
+  padding-right: 15px;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 12px;
+  color: #302f33;
+}
+
+.menu-title {
+padding: 24px 0px 0px 62px;
+}
+
+.topic-menu-title {
+padding: 24px 0px 0px 160px;
+}
+
+.featured-menu .main-item {
+  height: 105px;
+  width:80%;
+}
+
+
+.events-featured-menu .main-item {
+  height: 105px;
+  width:80%;
+}
+
+.events-menu-title {
+  padding: 24px 0px 0px 48px;
+
+}
+
+.news i {
+  color: #ff7373;
+}
+.news i {
+  color: #FD7476;
+}
+
+.sport i {
+  color: #75A0FC;
+}
+
+.ents i {
+  color: #F89844;
+}
+
+.finance i {
+  color: #F44479;
+}
+
+.sci i {
+  color: #23A258;
+}
+
+.lifestyle i {
+  color: #9E4EF1;
+}
+
+.viral i {
+  color: #F3A533;
+}
+
+.motoring i {
+  color: #237ABD;
+}
+
+.real i {
+  color: #BE8B42;
+}
